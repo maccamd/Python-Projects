@@ -1,0 +1,43 @@
+Driver Trace Analysis Tool Release Notes:
+
+V1.0
+Basic analysis of WLTC Trace to show target speed & actual speed with tolerance lines all time alligned and saved as pdf.
+
+V1.1
+Extra info added:
+Test id in title
+Drive violation
+Violation time
+Error count
+Error time
+Driver
+
+V1.2
+Pdf saves with name of test id
+
+V1.3
+Recoded ready for different test cycle analysis and make sure V1.2 still works
+
+V1.4
+NEDC analysis added if test report cycle says NEDC TYPE 1 or MVEG B MT (if not contact Sam McDonald with alternate cycle names so they can be added in future releases)
+
+V1.5
+Single US06 analysis added
+
+V1.6
+Single HWFET and SC03 analysis added
+
+V1.7
+MPT Logo added to reports
+
+V1.72
+Fixed an issue with old test reports
+
+V1.73
+Fixed a critical bug for outside users with MPT logo
+
+V1.74
+Added IWR metrics to test reports for WLTC reports only
+
+V1.75
+Added FTP75 Analysis to drive cycles
