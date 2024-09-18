@@ -8,14 +8,15 @@ import fnmatch
 ##--File Moving Program V2--##
 #V1 - copy
 #V2 - copy2 to try and keep metadata, Current VDC1 (5:45am) & VDC2 (5:10am) Version
+#V2 bn2 adding sync on program exercution
 """
 Program is designed to move files from one folder to another at a set time every day
 Only lines of code that need altering are:
-Line 27 - Folder that stores the original files
-Line 28 - Folder where files will go to
-Line 35 - File format your looking for to move
-Line 40 - Can choose if you want to cut or copy the files depending if you use .move or .copy
-Line 43 - Time the program runs the backup 
+Line 28 - Folder that stores the original files
+Line 29 - Folder where files will go to
+Line 36 - File format your looking for to move
+Line 41 - Can choose if you want to cut or copy the files depending if you use .move or .copy
+Line 46 - Time the program runs the backup 
 
 Program checks every second and runs as the minute changes
 Program can be made into an .exe using auto-py-to-exe, ensure terminal is selected in conversion settings
