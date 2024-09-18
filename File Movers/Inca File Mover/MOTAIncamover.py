@@ -40,7 +40,7 @@ def job():
                     os.remove(dst_file)
                 shutil.copy2(src_file, dst_dir) #.copy for copy paste .move for cut paste
     print("Daily move done on " + now.strftime("%d-%m-%Y %H:%M:%S"))
-     
+
 print("Syncing files on program exercution")
 job()     
 schedule.every().day.at("05:10").do(job)
